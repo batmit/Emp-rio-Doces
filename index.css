@@ -1,0 +1,27 @@
+body{
+}
+#menu ul { 
+    padding: 9px;
+    margin:0px;
+    background-color:#FF9999;
+    list-style:none;
+    text-align: center;
+ 
+  }
+
+  #menu ul li { display: inline; }
+
+  #menu ul li a { 
+    margin-left: 2rem;
+    padding: 6px 10px; 
+    display: inline-block; /* visual do link */ 
+    text-decoration: none; 
+    color: white;
+    border-bottom: 3px; 
+}
+
+#menu ul li a:hover { 
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px;
+  }

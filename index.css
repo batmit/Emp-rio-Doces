@@ -1,7 +1,11 @@
 body{
+  margin-top: 2rem;;
+  background-image:url("./fundo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 #menu ul { 
-    padding: 9px;
+    padding: 15px;
     margin:0px;
     background-color:#FF9999;
     list-style:none;
@@ -21,7 +25,8 @@ body{
 }
 
 #menu ul li a:hover { 
-    background-color:#D6D6D6;
+    transition-delay:0.1s;
     color: #6D6D6D;
     border-bottom:3px;
+    border-bottom: 2px solid black;
   }
